@@ -27,6 +27,7 @@ class Car {
     } else {
       ctx.fillStyle = color;
     }
+    //
     ctx.beginPath();
     ctx.moveTo(this.polygon[0].x, this.polygon[0].y);
     for (let i = 1; i < this.polygon.length; i++) {

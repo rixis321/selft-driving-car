@@ -28,7 +28,7 @@ class Sensor {
       ctx.strokeStyle = "yellow";
       ctx.moveTo(this.rays[i][0].x, this.rays[i][0].y);
       ctx.lineTo(end.x, end.y);
-      console.log(this.rays);
+
       ctx.stroke();
 
       ctx.beginPath();
@@ -36,7 +36,7 @@ class Sensor {
       ctx.strokeStyle = "black";
       ctx.moveTo(this.rays[i][1].x, this.rays[i][1].y);
       ctx.lineTo(end.x, end.y);
-      console.log(this.rays);
+
       ctx.stroke();
     }
   }
